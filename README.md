@@ -8,7 +8,7 @@ Aplikacja kalendarza wydarzeń stworzona w Django, która umożliwia przeglądan
 
 - Python 3.12 lub nowszy
 - Django 5.1 lub nowszy
-- SQLite (domyślnie) lub PostgreSQL (opcjonalnie)
+- SQLite (domyślnie)
 - Pakiety Python zdefiniowane w `requirements.txt`
 
 ## Instalacja
