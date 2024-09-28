@@ -17,7 +17,6 @@ def fetch_events_from_api():
         print(f"Błąd {response.status_code}: {response.text}")
         return []
 
-# Widok listy wydarzeń
 def event_list(request):
     events = fetch_events_from_api()
     return render(request, 'events/event_list.html', {'events': events})
