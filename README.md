@@ -71,6 +71,20 @@ python manage.py runserver
 
 Aplikacja powinna być dostępna pod adresem: `http://127.0.0.1:8000/`. 
 
+## Testowanie
+
+Aby uruchomić testy aplikacji, skorzystaj z poniższej komendy:
+
+```bash
+python manage.py test events.tests
+```
+
+Testy obejmują:
+- **Widoki (Views)** - Sprawdzają poprawność wyświetlania stron oraz połączenia z API.
+- **Modele (Models)** - Sprawdzają poprawność działania modeli bazy danych.
+
+Uruchomienie testów pozwala upewnić się, że wszystkie kluczowe funkcje aplikacji działają poprawnie.
+
 ## Użycie
 
 1. Po uruchomieniu aplikacji zobaczysz kalendarz, na którym wyświetlane są wydarzenia.
