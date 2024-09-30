@@ -57,6 +57,7 @@ pip install -r requirements.txt
 Przygotuj bazę danych:
 
 ```bash
+cd .\calendar_project\
 python manage.py migrate
 ```
 
